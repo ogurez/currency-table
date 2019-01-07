@@ -7,14 +7,7 @@ import {connect} from 'react-redux';
 class App extends Component {
   constructor(props){
     super(props);
-    // this.setDate = this.setDate.bind(this);
   }
-
-  // setDate = (value) => {
-  //   this.setState({
-  //     currentDate: value
-  //   })
-  // }
 
   render() {
     return (

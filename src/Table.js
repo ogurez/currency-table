@@ -30,7 +30,6 @@ class Table extends Component {
 
   sortBy = (key) => (e) =>{
     const direction = this.state.sort.key ? (this.state.sort.direction === 'asc' ? 'desc' : 'asc') : 'desc';
-    console.log(key);
     const sortedData = _.sortBy(this.state.data, [key]);
     
     if (direction === 'desc'){
