@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Calendar.css';
 import {connect} from 'react-redux';
 
 class Calendar extends Component {

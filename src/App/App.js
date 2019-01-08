@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Calendar from './Calendar';
-import Table from './Table';
+import Calendar from '../Calendar/Calendar';
+import Table from '../Table/Table';
 import {connect} from 'react-redux';
 
 class App extends Component {
