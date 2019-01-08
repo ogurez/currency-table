@@ -12,7 +12,6 @@ class Calendar extends Component {
     this.props.setDate(e.target.value, this.props.type)
   }
 
-
   render() {
     return (
       <div>

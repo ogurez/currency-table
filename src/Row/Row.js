@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Row.css';
 
 const Row = ({Cur_Abbreviation, Cur_ID, Cur_Name, Cur_OfficialRate, Cur_Scale, Date}) =>(

@@ -3,7 +3,6 @@ import './Table.css';
 import Row from '../Row/Row';
 import _ from 'lodash';
 
-
 class Table extends Component {
   constructor(props){
     super(props);
@@ -14,7 +13,6 @@ class Table extends Component {
         direction: 'desc'
       }
     }
-    
     this.sortBy = this.sortBy.bind(this);
   }
 
@@ -31,11 +29,9 @@ class Table extends Component {
   sortBy = (key) => (e) =>{
     const direction = this.state.sort.key ? (this.state.sort.direction === 'asc' ? 'desc' : 'asc') : 'desc';
     const sortedData = _.sortBy(this.state.data, [key]);
-    
     if (direction === 'desc'){
       sortedData.reverse();
     }
-
     this.setState({
       data: sortedData,
       sort : {
